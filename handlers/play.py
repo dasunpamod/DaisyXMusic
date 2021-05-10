@@ -454,7 +454,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Mystry_Music_Player to your Group and try again</b>",
+                                  "\n\nOr manually add @im_mr_dark_side to your Group and try again</b>",
                               )
                               pass
     try:
@@ -551,7 +551,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via MystryMusic 😜".format(
+        caption="▶️ **Playing** here the song requested by {} via Blackhatmusic 😜".format(
         message.from_user.mention()
         ),
     )
@@ -602,7 +602,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Mystry_Music_Player to your Group and try again</b>",
+                                  "\n\nOr manually add @im_mr_dark_side to your Group and try again</b>",
                               )
                               pass
     try:
@@ -732,7 +732,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Mystry_Music_Player to your Group and try again</b>",
+                                  "\n\nOr manually add @im_mr_dark_side to your Group and try again</b>",
                               )
                               pass
     try:
@@ -776,7 +776,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Join Updates Channel",
-                   url='https://t.me/rezot_tm')
+                   url='https://t.me/joinchat/bEqxPetaY0c0NjA1')
              ],
              [       
                InlineKeyboardButton(
@@ -800,12 +800,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯MystryMusic✯=#️⃣ Queued at position {position}",
+            caption=f"✯Blackhatmusic✯=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯MystryMusic✯=▶️ Playing.....")
+        await res.edit_text("✯Blackhatmusic✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
